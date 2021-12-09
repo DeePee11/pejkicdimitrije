@@ -3,11 +3,11 @@
 
 <channel>
   <title>CoffeeShop</title>
-  <link>https://pejkicdimitrije.000webhostapp.com/</link>
+  <link>https://deepee11.github.io/pejkicdimitrije/</link>
   <description>RSS feed CoffeeShop projekta</description>
   <item>
     <title>Novi proizvodi</title>
-    <link>https://pejkicdimitrije.000webhostapp.com/pages/galerija.html</link>
+    <link>https://deepee11.github.io/pejkicdimitrije/pages/galerija.html</link>
     <description>Ažuriranje poptuno novih proizvoda!</description>
   </item>
 </channel> 
