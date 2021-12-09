@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>CoffeeShop</title>
+  <link>https://pejkicdimitrije.000webhostapp.com/</link>
+  <description>RSS feed CoffeeShop projekta</description>
+  <item>
+    <title>Novi proizvodi</title>
+    <link>https://pejkicdimitrije.000webhostapp.com/pages/galerija.html</link>
+    <description>Ažuriranje poptuno novih proizvoda!</description>
+  </item>
+</channel> 
+
+</rss> 
