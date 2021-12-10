@@ -1,21 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   list-style-type: none;
   text-decoration: none;
-
 }
-a{
+a {
   color: black;
 }
-.floatL{
+.floatL {
   float: left;
 }
-.floatR{
+.floatR {
   float: right;
 }
-.cleaner{
+.cleaner {
   clear: both;
 }
 /*
@@ -23,29 +22,29 @@ a{
 *HEADER*
 ********
 */
-header{
+header {
   width: 100%;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   padding: 10px 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
 }
-#logo h1{
+#logo h1 {
   font-size: 35px;
 }
-.center-block{
+.center-block {
   width: 80%;
   margin: 0px auto;
 }
-nav ul li{
+nav ul li {
   display: inline;
   margin-left: 15px;
 }
-nav ul{
+nav ul {
   padding-top: 14px;
 }
-nav :hover{
+nav :hover {
   color: saddlebrown;
 }
 /*
@@ -53,20 +52,20 @@ nav :hover{
 *MAIN*
 ******
 */
-span{
+span {
   color: saddlebrown;
 }
-nav{
+nav {
   font-weight: bold;
 }
-#pozadina-index{
+#pozadina-index {
   background-image: url("../images/coffee-background-index.jpg");
   width: 100%;
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center;
 }
-#welcome-text{
+#welcome-text {
   width: 30%;
   height: 300px;
   top: 20%;
@@ -75,7 +74,7 @@ nav{
   border: 3px solid white;
   animation: fade 1.5s;
 }
-#welcome-text h2{
+#welcome-text h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +82,7 @@ nav{
   color: white;
   font-size: 40px;
 }
-@keyframes fade{
+@keyframes fade {
   from {
     opacity: 0;
   }
@@ -91,38 +90,38 @@ nav{
     opacity: 1;
   }
 }
-#o-nama h2{
+#o-nama h2 {
   text-align: center;
   padding: 20px;
   font-size: 30px;
 }
-#o-nama p{
+#o-nama p {
   font-size: 25px;
   text-align: center;
 }
-#telefon-radno-vreme{
+#telefon-radno-vreme {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 70px 0;
 }
-.info{
+.info {
   width: 400px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
-.info p, h4{
+.info p,
+h4 {
   margin-bottom: 10px;
 }
-.info i{
+.info i {
   font-size: 52px;
   padding: 70px;
 }
-.info h4{
+.info h4 {
   font-size: 20px;
 }
 .panorama {
@@ -130,7 +129,7 @@ nav{
   height: 430px;
   position: relative;
   display: block;
-  margin: 0 ;
+  margin: 0;
   background: url(../images/coffee-panorama.jpg) no-repeat;
   animation: slide 15s infinite;
 }
@@ -149,21 +148,20 @@ nav{
     background: url(../images/coffee-panorama.jpg) no-repeat;
   }
 }
-#pozadina-kontakt{
+#pozadina-kontakt {
   background-image: url("../images/coffee-background-kontakt.jpg");
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section{
+section {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
   border-radius: 10px;
@@ -172,67 +170,73 @@ section{
   height: 430px;
   position: relative;
 }
-.slideLeft{
+.slideLeft {
   animation-name: slideLeft;
-  animation-duration: 1.0s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-.slideRight{
+.slideRight {
   animation-name: slideRight;
-  animation-duration: 1.0s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-@keyframes slideLeft{
-  from {right: 200%;}
-  to {right: 0px;}
+@keyframes slideLeft {
+  from {
+    right: 200%;
+  }
+  to {
+    right: 0px;
+  }
 }
-@keyframes slideRight{
-  from {left: 200%;}
-  to {left: 0px;}
+@keyframes slideRight {
+  from {
+    left: 200%;
+  }
+  to {
+    left: 0px;
+  }
 }
-section a{
+section a {
   text-decoration: underline;
 }
-section p{
+section p {
   padding: 7px 0;
 }
-section td{
+section td {
   padding: 7px 0;
 }
-section iframe{
+section iframe {
   padding-top: 40px;
-
 }
-section h2{
+section h2 {
   padding: 0 30px 30px;
   text-align: center;
   font-size: 28px;
 }
-section input{
+section input {
   border: none;
   border-bottom: 1px solid black;
   background-color: transparent;
   width: 100%;
 }
-section input:focus{
+section input:focus {
   outline: none;
 }
-section textarea{
+section textarea {
   resize: none;
   outline: none;
   background-color: transparent;
-
 }
-section button{
+section button {
   background-color: transparent;
   width: 100%;
   height: 30px;
 }
 
-.zvezdica{
+.zvezdica {
   color: red;
 }
-#pozadina-o_autoru{
+#pozadina-o_autoru {
   width: 100%;
   height: 110vh;
   background-image: url("../images/coffee-background-o_autoru.jpg");
@@ -240,14 +244,14 @@ section button{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#opis_autora{
+#opis_autora {
   width: 40%;
   margin: 0 auto;
   height: 100%;
   display: flex;
   align-items: center;
 }
-#bela_pozadina{
+#bela_pozadina {
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
@@ -255,51 +259,55 @@ section button{
   border-radius: 15px;
   position: relative;
   animation-name: slidein;
-  animation-duration: 1.0s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-@keyframes slidein{
-  from {top: -200%;}
-  to {top: 0px;}
+@keyframes slidein {
+  from {
+    top: -200%;
+  }
+  to {
+    top: 0px;
+  }
 }
-#block p{
+#block p {
   margin: 15px 0;
 }
-#block{
+#block {
   width: 100%;
   height: 210px;
 }
-figure{
+figure {
   width: 170px;
   height: 100%;
   margin-right: 20px;
 }
-figcaption{
+figcaption {
   padding-top: 5px;
   text-align: center;
 }
-#bela_pozadina figure img{
+#bela_pozadina figure img {
   width: 170px;
   height: 100%;
   border-radius: 50%;
 }
-#pozadina-cenovnik{
+#pozadina-cenovnik {
   padding-top: 100px;
   background-image: url(../images/coffee-background-cenovnik.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 100%;
 }
-#meni ul{
+#meni ul {
   height: 700px;
   width: 50%;
   left: -65%;
   position: relative;
 }
-#meni h2{
+#meni h2 {
   font-size: 30px;
 }
-#meni ul li{
+#meni ul li {
   padding: 7px 0 7px 0;
   font-size: 20px;
   border-bottom: 1px solid black;
@@ -310,29 +318,61 @@ figcaption{
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-#meni ul li:nth-child(1) {animation-delay: 0.0s; }
-#meni ul li:nth-child(2) {animation-delay: 0.2s; }
-#meni ul li:nth-child(3) {animation-delay: 0.4s; }
-#meni ul li:nth-child(4) {animation-delay: 0.6s; }
-#meni ul li:nth-child(5) {animation-delay: 0.8s; }
-#meni ul li:nth-child(6) {animation-delay: 1.0s; }
-#meni ul li:nth-child(7) {animation-delay: 1.2s; }
-#meni ul li:nth-child(8) {animation-delay: 1.4s; }
-#meni ul li:nth-child(9) {animation-delay: 1.6s; }
-#meni ul li:nth-child(10) {animation-delay: 1.8s; }
-#meni ul li:nth-child(11) {animation-delay: 2.0s; }
-#meni ul li:nth-child(12) {animation-delay: 2.2s; }
-#meni ul li:nth-child(13) {animation-delay: 2.4s; }
-#meni ul li:nth-child(14) {animation-delay: 2.6s; }
+#meni ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+#meni ul li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+#meni ul li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+#meni ul li:nth-child(4) {
+  animation-delay: 0.6s;
+}
+#meni ul li:nth-child(5) {
+  animation-delay: 0.8s;
+}
+#meni ul li:nth-child(6) {
+  animation-delay: 1s;
+}
+#meni ul li:nth-child(7) {
+  animation-delay: 1.2s;
+}
+#meni ul li:nth-child(8) {
+  animation-delay: 1.4s;
+}
+#meni ul li:nth-child(9) {
+  animation-delay: 1.6s;
+}
+#meni ul li:nth-child(10) {
+  animation-delay: 1.8s;
+}
+#meni ul li:nth-child(11) {
+  animation-delay: 2s;
+}
+#meni ul li:nth-child(12) {
+  animation-delay: 2.2s;
+}
+#meni ul li:nth-child(13) {
+  animation-delay: 2.4s;
+}
+#meni ul li:nth-child(14) {
+  animation-delay: 2.6s;
+}
 
-#meni ul li span{
+#meni ul li span {
   font-weight: bold;
 }
 @keyframes sladein1by1 {
-  from {left: -10%;}
-  to {left: 130%;}
+  from {
+    left: -10%;
+  }
+  to {
+    left: 130%;
+  }
 }
-#pozadina-galerija{
+#pozadina-galerija {
   background-image: url(../images/coffee-background-galerija.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,35 +380,35 @@ figcaption{
   height: 550px;
   background-attachment: fixed;
 }
-#cover-text{
+#cover-text {
   width: 100%;
   position: absolute;
   height: 550px;
   background: rgba(0, 0, 0, 0.6);
 }
-#cover-text h2{
+#cover-text h2 {
   position: absolute;
   top: 50%;
   left: 45%;
   font-size: 50px;
   color: white;
 }
-#galerija{
+#galerija {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 50px;
 }
-.overflow{
+.overflow {
   margin-bottom: 50px;
 }
-.overflow img:hover{
+.overflow img:hover {
   transform: scale(1.1);
 }
-.overflow img{
-  transition: all 1s ease
+.overflow img {
+  transition: all 1s ease;
 }
-.overflow-x{
+.overflow-x {
   overflow-x: hidden;
 }
 /*
@@ -376,24 +416,22 @@ figcaption{
 *FOOTER*
 ********
 */
-#social :hover{
+#social :hover {
   color: saddlebrown;
 }
-footer{
+footer {
   background-color: rgb(255, 255, 255);
   height: 100px;
   width: 100%;
   padding-top: 30px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
 }
-footer ul li{
+footer ul li {
   display: inline;
   font-size: 30px;
   margin: 5px;
-  
 }
-footer p{
+footer p {
   margin-top: 10px;
 }
